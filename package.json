@@ -1,0 +1,29 @@
+{
+  "name": "react-views",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-react-views": "^0.10.5",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjdesigner/react-views.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjdesigner/react-views/issues"
+  },
+  "homepage": "https://github.com/hjdesigner/react-views#readme"
+}
