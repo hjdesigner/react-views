@@ -16,4 +16,4 @@ app.get('/sobre', (req, res, next) => {
   res.render('sobre.jsx');
 });
 
-app.listen(port, () => console.log(`\uD83C\uDF0F runing at http://localhost${port}`));
+app.listen((process.env.PORT || port), () => console.log(`\uD83C\uDF0F runing at http://localhost${port}`));
