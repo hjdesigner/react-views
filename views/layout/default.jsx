@@ -1,11 +1,15 @@
-var React = require('react');
+const React = require('react');
 
 class DefaultLayout extends React.Component {
   render() {
     return (
       <html>
         <head><title></title></head>
-        <body>{this.props.children}</body>
+        <body>
+          <main className='main'>
+            {this.props.children}
+          </main>          
+        </body>
       </html>
    );
   }
